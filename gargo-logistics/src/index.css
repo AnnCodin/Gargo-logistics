@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+:root {
+  --primary-color: #1d2d8c;
+  --secondary-color: #f42f04;
+  --body-bg: #d9d9d9;
+}
+body {
+  background-color: var(--body-bg);
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
