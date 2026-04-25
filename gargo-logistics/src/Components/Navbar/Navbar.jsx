@@ -20,7 +20,7 @@ const Navbar = () => {
         </li>
         <li>Contact Us</li>
       </ul>
-      <button>get a quote</button>
+      <button className="btn red-btn">get a quote</button>
     </nav>
   );
 };

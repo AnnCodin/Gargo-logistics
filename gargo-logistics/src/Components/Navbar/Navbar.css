@@ -3,11 +3,13 @@ nav {
   background: #fff;
   color: var(--primary-color);
   height: 75px;
-  position: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 nav i {
   color: var(--secondary-color);
@@ -22,4 +24,11 @@ nav ul li {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: rgb(0, 12, 83);
+}
+.red-btn:hover {
+  background: rgb(206, 38, 1);
 }
