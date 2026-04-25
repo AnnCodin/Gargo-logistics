@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   background:
     linear-gradient(to top, rgba(26, 1, 184, 0.3), rgba(24, 4, 157, 0.3)),
     url("../../assets/hero_bg.jpg");

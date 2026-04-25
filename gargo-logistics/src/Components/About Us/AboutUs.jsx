@@ -5,18 +5,18 @@ const AboutUs = () => {
   return (
     <div>
       <div className="flip-cards">
-        <div className="card1">
+        <div className="card">
           <i class="ri-phone-fill"></i>
-          <div className="card1-text">
+          <div className="card-text">
             <h3>call center</h3>
             <div className="divider"></div>
             <p>Give Us a Free Call</p>
             <p>+123-234-1234</p>
           </div>
         </div>
-        <div className="card1">
+        <div className="card">
           <i class="ri-home-9-fill"></i>
-          <div className="card1-text">
+          <div className="card-text">
             <h3>Location</h3>
             <div className="divider"></div>
             <p>99 Roving St, Bg </p>
@@ -24,10 +24,14 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="blue-card">
-          <div className="card1-text">
+          <div className="card-text">
             <h3>trace & track</h3>
             <div className="input-field">
-              <input type="text" placeholder="Enter your tracking ID" />
+              <input
+                name="text"
+                type="text"
+                placeholder="Enter your tracking ID"
+              />
               <i class="ri-search-line"></i>
             </div>
           </div>
