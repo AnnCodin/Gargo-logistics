@@ -1,5 +1,5 @@
 import React from "react";
-import Topbar from "./Components/Topbar/Topbar";
+import Topbar from "./Components/Topbar/Topbar.jsx";
 
 const App = () => {
   return (
