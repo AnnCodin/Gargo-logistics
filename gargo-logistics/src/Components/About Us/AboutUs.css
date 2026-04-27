@@ -33,7 +33,7 @@
   font-weight: 500;
 }
 .card p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
 }
 .blue-card {
@@ -79,7 +79,7 @@
   justify-content: center;
 }
 ::placeholder {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 24px;
 }
 .about-wrapper {
@@ -120,7 +120,7 @@
 .aboutus-right h3 {
   text-transform: uppercase;
   color: var(--secondary-color);
-  font-size: 22px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 400;
   padding-bottom: 30px;
@@ -135,7 +135,7 @@
   padding-bottom: 30px;
 }
 .aboutus-right p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   padding-top: 10px;
@@ -160,7 +160,7 @@
 .world-text h4 {
   width: 100%;
   color: var(--primary-color);
-  font-size: 26px;
+  font-size: 22px;
   line-height: 0px;
   font-weight: 400;
   padding-bottom: 15px;
@@ -218,7 +218,7 @@
   line-height: 36px;
 }
 .number p {
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 400;
 }
