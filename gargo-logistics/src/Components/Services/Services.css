@@ -62,3 +62,129 @@
   line-height: 64px;
   margin-right: 80px;
 }
+.chooseus-wrapper {
+  margin: 80px 0;
+}
+.chooseus-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.choose-left {
+  flex-basis: 49%;
+}
+.chooseus-left h3 {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.chooseus-left h4 {
+  width: 100%;
+  max-width: 400px;
+  color: var(--primary-color);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+.chooseus-left p {
+  width: 100%;
+  max-width: 500px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+.skills-box {
+  width: 500px;
+  padding: 20px 0;
+}
+.skill {
+  margin-bottom: 35px;
+}
+.skill:last-child {
+  margin-bottom: 0;
+}
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 400;
+}
+.progress {
+  width: 100%;
+  height: 6px;
+  background: #fff;
+  overflow: hidden;
+}
+.progress-fill1 {
+  height: 100%;
+  width: 97%;
+  background: var(--secondary-color);
+}
+.progress-fill2 {
+  height: 100%;
+  width: 95%;
+  background: var(--secondary-color);
+}
+.progress-fill3 {
+  height: 100%;
+  width: 93%;
+  background: var(--secondary-color);
+}
+.progress-fill4 {
+  height: 100%;
+  width: 96%;
+  background: var(--secondary-color);
+}
+.top-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.top-text h4 {
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--primary-color);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.top-text p {
+  font-size: 15px;
+  line-height: 23px;
+  max-width: 250px;
+}
+.chooseus-right {
+  flex-basis: 49%;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.chooseus-right img {
+  width: 90%;
+  height: 450px;
+  display: block;
+  object-fit: cover;
+  transform: translate(-3%, -3%);
+  padding-left: 15px;
+}
+.bottom-block {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  width: 220px;
+  height: 120px;
+  background: var(--secondary-color);
+  z-index: -2;
+}

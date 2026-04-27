@@ -15,10 +15,10 @@ const Navbar = () => {
         <li>
           Pages <i class="ri-arrow-down-s-line"></i>
         </li>
+        <li>Contact Us</li>
         <li>
           Blog <i class="ri-arrow-down-s-line"></i>
         </li>
-        <li>Contact Us</li>
       </ul>
       <button className="btn red-btn">get a quote</button>
     </nav>
