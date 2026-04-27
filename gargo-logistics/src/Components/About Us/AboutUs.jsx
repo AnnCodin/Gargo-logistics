@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
+import about_left from "../../assets/about_left.jpg";
 
 const AboutUs = () => {
   return (
@@ -37,7 +38,44 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="about-wrapper"></div>
+      <div className="about-wrapper">
+        <div className="aboutus-content">
+          <div className="aboutus-left">
+            <div class="bottom-block"></div>
+            <img src={about_left} alt="Containers" />
+          </div>
+          <div className="aboutus-right">
+            <h3>about gargo</h3>
+            <h4>Perfect Company with Perfect Solutions</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Sapien donec risus erat
+              tincidunt fermentum ultrices faucibus sit pellentesque. Sit
+              pellentesque adipiscing ipsum
+            </p>
+            <p>
+              bibendum mollis parturient semper. Et fringilla in in interdum id
+              aliquet tortor. Id est sit tellus risus erat nunc.
+            </p>
+            <div className="service-points">
+              <div className="world-service">
+                <i class="ri-global-line"></i>
+                <div className="world-text">
+                  <h4>world service</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur. Massa nisl vel </p>
+                </div>
+              </div>
+              <div className="local-service">
+                <i class="ri-map-pin-line"></i>
+                <div className="world-text">
+                  <h4>local service</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur. Massa nisl vel </p>
+                </div>
+              </div>
+            </div>
+            <button className="btn red-btn">more about us</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
