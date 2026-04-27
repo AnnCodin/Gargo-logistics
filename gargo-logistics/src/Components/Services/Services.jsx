@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className="services-wrapper">
       <div className="services-content container">
-        <p>
+        <p id="gap">
           Lorem ipsum dolor sit amet consectetur. Sapien donec risus erat
           tincidunt fermentum ultrices faucibus sit pellentesque. Sit
           pellentesque adipiscing ipsum{" "}
@@ -176,10 +176,13 @@ const Services = () => {
               </div>
             </div>
             <div className="image-container">
-              <div class="bottom-block"></div>
+              <div class="choose-block"></div>
               <img src={choose_right} alt="Containers" />
             </div>
           </div>
+        </div>
+        <div className="testimonials container">
+          <h3>0000</h3>
         </div>
       </div>
     </div>
