@@ -5,7 +5,7 @@ import about_left from "../../assets/about_left.jpg";
 const AboutUs = () => {
   return (
     <div>
-      <div className="flip-cards">
+      <div className="flip-cards container">
         <div className="card">
           <i class="ri-phone-fill"></i>
           <div className="card-text">
@@ -39,7 +39,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="about-wrapper">
-        <div className="aboutus-content">
+        <div className="aboutus-content container">
           <div className="aboutus-left">
             <div class="bottom-block"></div>
             <img src={about_left} alt="Containers" />
@@ -73,6 +73,32 @@ const AboutUs = () => {
               </div>
             </div>
             <button className="btn red-btn">more about us</button>
+          </div>
+        </div>
+        <div className="numbers">
+          <div className="number">
+            <h3>
+              587<span>k</span>
+            </h3>
+            <p>Delivered Goods</p>
+          </div>
+          <div className="number">
+            <h3>
+              80<span>+</span>
+            </h3>
+            <p>Countries Covered</p>
+          </div>
+          <div className="number">
+            <h3>
+              259<span>+</span>
+            </h3>
+            <p>Office Worldwide</p>
+          </div>
+          <div className="number">
+            <h3>
+              57,080<span>+</span>
+            </h3>
+            <p>Clients Satisfied</p>
           </div>
         </div>
       </div>
