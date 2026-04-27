@@ -39,7 +39,6 @@
   font-weight: 400;
   max-width: 205px;
   text-align: left;
-  padding-bottom: 10px;
 }
 .list-item a {
   color: var(--secondary-color);
