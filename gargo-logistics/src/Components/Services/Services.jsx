@@ -181,9 +181,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="testimonials container">
-          <h3>0000</h3>
-        </div>
       </div>
     </div>
   );
