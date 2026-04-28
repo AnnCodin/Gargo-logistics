@@ -1,0 +1,22 @@
+.gallery-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+.gallery img {
+  width: 100%;
+  display: block;
+}
+.gallery {
+  flex-basis: 31%;
+}
+.goods-wrapper p {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 80px;
+}
