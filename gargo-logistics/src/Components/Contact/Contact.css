@@ -1,12 +1,11 @@
 .map-section {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   margin: 80px auto;
   padding: 0;
   overflow: hidden;
 }
-
 .map-section > iframe {
   position: absolute;
   inset: 0;
@@ -14,4 +13,64 @@
   height: 100% !important;
   border: 0;
   display: block;
+}
+.contact-info {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+  width: 48%;
+  margin-top: -400px;
+  margin-left: auto;
+  margin-right: 100px;
+}
+.contact-info h3 {
+  font-size: 28px;
+  line-height: 36px;
+  color: var(--primary-color);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.contact-info p {
+  font-size: 15px;
+  line-height: 20px;
+  max-width: 600px;
+  padding-bottom: 30px;
+}
+.contact-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+}
+.contact i {
+  color: var(--secondary-color);
+  padding-top: 10px;
+  font-size: 22px;
+}
+.contact h4 {
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--primary-color);
+}
+.contact p {
+  font-size: 15px;
+  line-height: 20px;
+}
+.line {
+  width: 100%;
+  background: var(--secondary-color);
+  height: 2px;
+  margin: 20px 0;
+}
+.icons i {
+  color: #fff;
+  margin-left: 10px;
+  background-color: var(--primary-color);
+  padding: 4px;
+  border-radius: 30px;
 }
