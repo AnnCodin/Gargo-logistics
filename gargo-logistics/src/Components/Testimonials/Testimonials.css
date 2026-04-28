@@ -1,0 +1,81 @@
+.testimonials {
+  margin: 0 auto;
+  padding: 30px 20px 60px 20px;
+  position: relative;
+  max-width: 1100px;
+}
+.next-btn,
+.back-btn {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 48px;
+  padding: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--primary-color);
+  z-index: 10;
+}
+.back-btn {
+  left: -10px;
+}
+.next-btn {
+  right: -10px;
+}
+.slider {
+  width: 85%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slider ul {
+  display: flex;
+  width: 400%;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s ease;
+}
+.slider ul li {
+  list-style: none;
+  width: 25%;
+  flex-shrink: 0;
+  padding: 0;
+}
+.slide {
+  height: 70%;
+  background: #fff;
+  padding: 80px 0 0 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.slide p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.user-info {
+  margin-top: 35px;
+  text-align: center;
+  transform: translateY(0%);
+}
+.user-info img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+}
+.user-info h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+.user-info span {
+  display: inline-block;
+  margin-top: 2px;
+  font-size: 15px;
+}
