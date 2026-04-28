@@ -31,10 +31,10 @@ const Pages = () => {
           <img src={goods_4} alt="" />
         </div>
         <div className="gallery">
-          <img src={goods_5} alt="" />
+          <img src={goods_5} alt="solar panels" />
         </div>
         <div className="gallery">
-          <img src={goods_6} alt="" />
+          <img src={goods_6} alt="boxes" />
         </div>
       </div>
     </div>
