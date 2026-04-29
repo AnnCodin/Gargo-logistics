@@ -3,6 +3,7 @@
   padding: 40px 20px 60px 20px;
   position: relative;
   width: 100%;
+  max-width: 1100px;
 }
 .next-btn,
 .back-btn {
@@ -15,13 +16,12 @@
   cursor: pointer;
   background: var(--primary-color);
   z-index: 10;
-  margin: 0 100px;
 }
 .back-btn {
-  left: -10px;
+  left: 10px;
 }
 .next-btn {
-  right: -10px;
+  right: 10px;
 }
 .slider {
   width: 70%;
@@ -51,7 +51,7 @@
   text-align: center;
 }
 .slide p {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   font-size: 15px;
   line-height: 1.55;
