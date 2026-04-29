@@ -8,6 +8,7 @@ import Services from "./Components/Services/Services.jsx";
 import Testimonials from "./Components/Testimonials/Testimonials.jsx";
 import Pages from "./Components/Pages/Pages.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
+import Blog from "./Components/Blog/Blog.jsx";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Title subTitle="types of goods" title="we are a safe shipper" />
       <Pages />
       <Contact />
+      <Blog />
     </div>
   );
 };
