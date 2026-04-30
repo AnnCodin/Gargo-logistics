@@ -1,20 +1,18 @@
 import React, { useEffect, useState } from "react";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-} from "react-scroll";
 import "./Navbar.css";
 import site_logo from "../../assets/gargo_logo.png";
+import menu_icon from "../../assets/menu-icon.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const toggleMenu = () => {
+    mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
+  };
   return (
     <nav className="container">
       <img src={site_logo} alt="Site Logo" className="logo" />
-      <ul>
+      <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
             Home
@@ -51,6 +49,7 @@ const Navbar = () => {
           get a quote
         </Link>
       </button>
+      <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
     </nav>
   );
 };

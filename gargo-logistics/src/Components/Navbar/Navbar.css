@@ -31,3 +31,37 @@ nav ul li:hover {
 .red-btn:hover {
   background: rgb(206, 38, 1);
 }
+.menu-icon {
+  display: none;
+}
+
+/*--- Media Query ---*/
+@media (max-width: 840px) {
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--primary-color);
+    z-index: -1;
+    width: 200px;
+    padding-top: 80px;
+    transition: 0.5s;
+    bottom: 0;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+    color: #fff;
+  }
+  nav button {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    width: 25px;
+    cursor: pointer;
+  }
+  .hide-mobile-menu {
+    right: -200px;
+  }
+}
