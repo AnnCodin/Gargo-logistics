@@ -70,8 +70,11 @@
   gap: 60px;
   margin: 80px auto;
 }
-.choose-left {
-  width: 100%;
+.chooseus-left {
+  flex-basis: 50%;
+}
+.chooseus-right {
+  flex-basis: 50%;
 }
 .chooseus-left h3 {
   text-transform: uppercase;
@@ -180,4 +183,27 @@
   height: 120px;
   background: var(--secondary-color);
   z-index: -2;
+}
+
+/*--- Media Query ---*/
+@media (max-width: 1200px) {
+  .chooseus-left {
+    flex-basis: 50%;
+  }
+  .chooseus-right {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .chooseus-content {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .chooseus-left {
+    flex-basis: 50%;
+  }
+  .chooseus-right {
+    flex-basis: 50%;
+  }
 }

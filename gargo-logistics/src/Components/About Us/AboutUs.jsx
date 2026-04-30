@@ -5,7 +5,7 @@ import about_left from "../../assets/about_left.jpg";
 const AboutUs = () => {
   return (
     <div>
-      <div className="flip-cards container">
+      <div className="flip-cards container" id="aboutus">
         <div className="card">
           <i class="ri-phone-fill"></i>
           <div className="card-text">

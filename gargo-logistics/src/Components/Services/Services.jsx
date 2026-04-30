@@ -4,7 +4,7 @@ import choose_right from "../../assets/choose_right.jpg";
 
 const Services = () => {
   return (
-    <div className="services-wrapper">
+    <div className="services-wrapper" id="services">
       <div className="services-content container">
         <p id="gap">
           Lorem ipsum dolor sit amet consectetur. Sapien donec risus erat

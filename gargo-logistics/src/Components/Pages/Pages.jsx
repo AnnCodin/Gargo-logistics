@@ -9,7 +9,7 @@ import goods_6 from "../../assets/goods-6.png";
 
 const Pages = () => {
   return (
-    <div className="goods-wrapper container">
+    <div className="goods-wrapper container" id="pages">
       <p>
         Lorem ipsum dolor sit amet consectetur. Sapien donec risus erat
         tincidunt fermentum ultrices faucibus sit pellentesque. Sit pellentesque

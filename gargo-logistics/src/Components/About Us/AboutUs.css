@@ -223,3 +223,39 @@
   line-height: 24px;
   font-weight: 400;
 }
+
+/*--- Media Query ---*/
+@media (max-width: 900px) {
+  .aboutus-left img {
+    height: 500px;
+  }
+  .numbers {
+    height: 300px;
+    gap: 50px;
+  }
+  .number p {
+    font-size: 16px;
+  }
+  .number h3 {
+    font-size: 46px;
+    line-height: 52px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 950px) {
+  .aboutus-left img {
+    height: 500px;
+  }
+  .numbers {
+    height: 300px;
+    gap: 50px;
+  }
+  .number p {
+    font-size: 16px;
+  }
+  .number h3 {
+    font-size: 46px;
+    line-height: 52px;
+    font-weight: 500;
+  }
+}
